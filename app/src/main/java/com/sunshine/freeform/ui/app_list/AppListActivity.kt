@@ -140,7 +140,7 @@ fun AppListItem(appInfo: AppInfo, viewModel: ServiceViewModel) {
             painter = rememberDrawablePainter(drawable = appInfo.icon),
             contentDescription = null,
             modifier = Modifier
-                .size(60.dp),
+                .size(61.dp),
             contentScale = ContentScale.Crop
         )
         Spacer(modifier = Modifier.height(5.dp))
